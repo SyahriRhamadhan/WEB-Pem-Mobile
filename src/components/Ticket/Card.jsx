@@ -45,7 +45,7 @@ const Card = () => {
     }
   }
   const getTicket = async () => {
-    const response = await axios.get("https://flightgo-be-server.up.railway.app/v1/api/ticket");
+    const response = await axios.get("https://be-pem-mobile-production.up.railway.app/v1/api/ticket");
     setTicket(response.data);
   };
   return (

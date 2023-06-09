@@ -15,7 +15,7 @@ const UpdateOrder = () => {
     }
     const orderProduct = async () => {
         await axios
-          .get(`https://flightgo-be-server.up.railway.app/v1/api/ticket/transaction/data/${id}`, {
+          .get(`https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/data/${id}`, {
             headers: {
               Authorization: "Bearer " + localStorage.getItem("token"),
             },
@@ -38,7 +38,7 @@ const UpdateOrder = () => {
             };
             axios
               .put(
-                `https://flightgo-be-server.up.railway.app/v1/api/ticket/transaction/accept/${id}`,
+                `https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/accept/${id}`,
                 data,
                 {
                   headers: {
@@ -72,7 +72,7 @@ const UpdateOrder = () => {
             };
             axios
               .put(
-                `https://flightgo-be-server.up.railway.app/v1/api/ticket/transaction/reject/${id}`,
+                `https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/reject/${id}`,
                 data,
                 {
                   headers: {

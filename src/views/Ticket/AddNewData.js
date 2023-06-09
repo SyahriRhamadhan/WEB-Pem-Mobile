@@ -75,7 +75,7 @@ const AddTicket = () => {
       } else {
           // eslint-disable-next-line no-unused-vars
           const response = await axios.post(
-              "https://flightgo-be-server.up.railway.app/v1/api/ticket",
+              "https://be-pem-mobile-production.up.railway.app/v1/api/ticket",
               form,
               {
                   headers: {

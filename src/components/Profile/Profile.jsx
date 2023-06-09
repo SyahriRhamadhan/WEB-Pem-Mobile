@@ -28,7 +28,7 @@ export default function ProfilePage() {
   const [history, setHistory] = useState([]);
   const whoami = () => {
     axios
-      .get('https://flightgo-be-server.up.railway.app/v1/api/current-user', {
+      .get('https://be-pem-mobile-production.up.railway.app/v1/api/current-user', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },
@@ -57,7 +57,7 @@ export default function ProfilePage() {
 
   const historyUser = () => {
     axios
-      .get('https://flightgo-be-server.up.railway.app/v1/api/ticket/transaction/data/history/member', {
+      .get('https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/data/history/member', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },

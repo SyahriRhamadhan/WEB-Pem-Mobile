@@ -15,7 +15,7 @@ const EditProfile = () => {
     const navigate = useNavigate();
     const whoami = () => {
         axios
-            .get('https://flightgo-be-server.up.railway.app/v1/api/current-user', {
+            .get('https://be-pem-mobile-production.up.railway.app/v1/api/current-user', {
                 headers: {
                     Authorization: "Bearer " + localStorage.getItem("token"),
                 },
@@ -48,7 +48,7 @@ const EditProfile = () => {
             } else {
                 // eslint-disable-next-line no-unused-vars
                 const response = await axios.put(
-                    "https://flightgo-be-server.up.railway.app/v1/api/users",
+                    "https://be-pem-mobile-production.up.railway.app/v1/api/users",
                     form,
                     {
                         headers: {

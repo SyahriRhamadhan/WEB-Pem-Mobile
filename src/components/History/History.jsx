@@ -8,7 +8,7 @@ function History() {
   const [history, setHistory] = useState([]);
   const historyUser = () => {
     axios
-      .get('https://flightgo-be-server.up.railway.app/v1/api/ticket/transaction/data/history/member', {
+      .get('https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/data/history/member', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },
@@ -55,27 +55,27 @@ function History() {
                       </div>
                     </Col>
                     <Col >
-                    {history.checkIn === null ? (
-                      
-                      <Button className='d-flex justify-content-between' style={{ backgroundColor: "#F97316" }} >
-                        <Link to={`/history/checkin/${history.id}`} className='text-white'>
-                          Check In
-                        </Link>
-                      </Button>
-                    ) : (
-                      <OverlayTrigger
-                        placement="bottom"
-                        overlay={
-                          <Tooltip id="tooltip-right">
-                            Kamu Sudah Check In
-                          </Tooltip>
-                        }
-                      >
-                        <Button className='d-flex justify-content-between bg-success'>
-                          CHECK IN
+                      {history.checkIn === null ? (
+
+                        <Button className='d-flex justify-content-between' style={{ backgroundColor: "#F97316" }} >
+                          <Link to={`/history/checkin/${history.id}`} className='text-white'>
+                            Check In
+                          </Link>
                         </Button>
-                      </OverlayTrigger>
-                    )}
+                      ) : (
+                        <OverlayTrigger
+                          placement="bottom"
+                          overlay={
+                            <Tooltip id="tooltip-right">
+                              Kamu Sudah Check In
+                            </Tooltip>
+                          }
+                        >
+                          <Button className='d-flex justify-content-between bg-success'>
+                            CHECK IN
+                          </Button>
+                        </OverlayTrigger>
+                      )}
                     </Col>
                   </Row>
                 </div>

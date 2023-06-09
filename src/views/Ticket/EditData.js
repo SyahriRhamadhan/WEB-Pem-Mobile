@@ -41,7 +41,7 @@ const EditData = () => {
   const getProduct = async () => {
     try {
       const res = await axios.get(
-        `https://flightgo-be-server.up.railway.app/v1/api/ticket/${id}`,
+        `https://be-pem-mobile-production.up.railway.app/v1/api/ticket/${id}`,
         {
           headers: {
             Authorization: `Bearer ${localStorage.getItem("token")}`,
@@ -110,7 +110,7 @@ const EditData = () => {
     try {
       // eslint-disable-next-line no-unused-vars
       const res = await axios.put(
-        `https://flightgo-be-server.up.railway.app/v1/api/ticket/${id}`,
+        `https://be-pem-mobile-production.up.railway.app/v1/api/ticket/${id}`,
         form,
         {
           headers: {
@@ -141,7 +141,7 @@ const EditData = () => {
       if (willRejected) {
         axios
           .delete(
-            `https://flightgo-be-server.up.railway.app/v1/api/ticket/${id}`,
+            `https://be-pem-mobile-production.up.railway.app/v1/api/ticket/${id}`,
             {
               headers: {
                 Authorization: "Bearer " + localStorage.getItem("token"),

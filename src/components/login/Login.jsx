@@ -15,7 +15,7 @@ function Login() {
 
     const login = () => {
         axios
-            .post("https://flightgo-be-server.up.railway.app/v1/api/Login", {
+            .post("https://be-pem-mobile-production.up.railway.app/v1/api/Login", {
                 email: String(email.target.value),
                 password: String(password.target.value),
             })
