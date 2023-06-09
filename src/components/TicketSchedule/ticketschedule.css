@@ -1,0 +1,15 @@
+.form-control,
+.form-control-lg {
+    border: 0 !important;
+    outline: #F66F4D;
+
+}
+input {
+    border: 0 !important;
+    border-radius: 5px;
+    outline: #F66F4D;
+}
+.form-outline {
+    border: 1px solid #F66F4D !important;
+    border-radius: 5px;
+}

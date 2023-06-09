@@ -1,0 +1,24 @@
+.notif-container{
+    padding-top: 80px;
+    margin-left: 80px;
+}
+.section-content{
+    padding-top: 150px;
+}
+
+h3{
+    margin-top: 5px;
+    color: black;
+}
+
+.textNotif{
+    color: black;
+    position: relative;
+    font-size: 15px;
+    
+}
+
+
+i{
+    padding: 15px;
+}

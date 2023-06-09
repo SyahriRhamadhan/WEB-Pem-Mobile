@@ -1,0 +1,123 @@
+.containers {
+    background-color: #f6f6f6;
+    min-height: 200vh;
+    min-width: 1100px;
+  }
+  
+  .contain {
+    min-width: 1100px;
+    box-sizing: border-box;
+    padding: 0 100px;
+    height: 170px;
+    background-color: white;
+  }
+  
+  .nav-item {
+    padding: 0 15px;
+    color: black;
+    text-decoration: none;
+  }
+  
+  .icon-select-departure {
+    margin-right: 40px;
+    margin-top: 20px;
+  }
+  
+  .card-signup-login {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    background: linear-gradient(93.28deg, #F97316 0.04%, #ff6a00 101.02%);
+  }
+  
+  .fonts-light {
+    font-size: 12px;
+    font-weight: 400;
+    color: #9a9a9d;
+  }
+  
+  .fonts-medium {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9a9a9d;
+  }
+  
+  .fonts-bold {
+    font-size: 24px;
+    font-weight: 700;
+    color: #4a4949;
+  }
+  
+  .fonts-normal {
+    font-size: 18px;
+    font-weight: 700;
+    color: #59595b;
+  }
+  
+  .mrs-3 {
+    margin-right: 10px;
+  }
+  
+  .pys-2 {
+    color: black;
+    text-decoration: none;
+    padding: 0 15px;
+  }
+  
+  .contains-head {
+    background-color: #f6f6f6;
+    min-height: 100vh;
+    min-width: 1100px;
+  }
+  
+  .contains-heads {
+    background-color: #f6f6f6;
+    min-height: 200vh;
+    min-width: 1100px;
+  }
+  
+  .bg-whites {
+    min-width: 1100px;
+    box-sizing: border-box;
+    padding: 0 100px;
+    height: 70px;
+    background: white;
+  }
+  
+  .dapature-flight {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    margin-top: 50px;
+    width: 70%;
+    margin-right: 30px;
+  }
+  
+  .price-detail {
+    margin-top: 40px;
+    width: 35%;
+    box-sizing: border-box;
+    padding: 10px;
+    position: relative;
+  }
+  
+  .card-price-detail {
+    bottom: 10px;
+    width: 92%;
+    box-sizing: border-box;
+    padding: 5px;
+  }
+  
+  .buttons-continue-booking {
+    position: absolute;
+    bottom: -70px;
+    width: 100%;
+    margin-left: -7px;
+  }
+  
+  .cn-trav {
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 10%);
+    background-color: white;
+  }
+  
+  .cn-trav-item {
+    border-bottom: 1px solid rgb(225 225 225);
+    padding-bottom: 12px;
+  }
+  
