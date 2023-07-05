@@ -41,6 +41,17 @@ function App() {
   };
 
   useEffect(() => {
+    window.watsonAssistantChatOptions = {
+      integrationID: "205085ad-c522-4013-83a0-feff066194f0",
+      region: "au-syd",
+      serviceInstanceID: "ede10d30-f61f-4d87-bbbf-781606621fe5",
+      onLoad: function(instance) { instance.render(); }
+    };
+    setTimeout(function(){
+      const t=document.createElement('script');
+      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
       whoami();
   }, [])
   return (
