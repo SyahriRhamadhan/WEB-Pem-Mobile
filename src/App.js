@@ -30,7 +30,7 @@ function App() {
   
   const whoami = () => {
     axios
-        .get('https://be-pem-mobile-production.up.railway.app/v1/api/current-user', {
+        .get('https://witty-gold-donkey.cyclic.app/v1/api/current-user', {
             headers: {
                 Authorization: "Bearer " + localStorage.getItem("token"),
             },

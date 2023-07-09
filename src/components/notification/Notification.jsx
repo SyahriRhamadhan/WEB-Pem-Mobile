@@ -9,7 +9,7 @@ function Notification() {
   const [ditolak, setDitolak] = useState([]);
   const NotifMenunggu = () => {
     axios
-      .get('https://be-pem-mobile-production.up.railway.app/v1/api/ticket/tansactransaction/notif/menunggu', {
+      .get('https://witty-gold-donkey.cyclic.app/v1/api/ticket/tansactransaction/notif/menunggu', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },
@@ -20,7 +20,7 @@ function Notification() {
   };
   const NotifDiterima = () => {
     axios
-      .get('https://be-pem-mobile-production.up.railway.app/v1/api/ticket/tansactransaction/notif/diterima', {
+      .get('https://witty-gold-donkey.cyclic.app/v1/api/ticket/tansactransaction/notif/diterima', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },
@@ -31,7 +31,7 @@ function Notification() {
   };
   const NotifDitolak = () => {
     axios
-      .get('https://be-pem-mobile-production.up.railway.app/v1/api/ticket/tansactransaction/notif/ditolak', {
+      .get('https://witty-gold-donkey.cyclic.app/v1/api/ticket/tansactransaction/notif/ditolak', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },

@@ -10,7 +10,7 @@ function Register() {
 
   const register = () => {
     axios
-      .post("https://be-pem-mobile-production.up.railway.app/v1/api/register-member", {
+      .post("https://witty-gold-donkey.cyclic.app/v1/api/register-member", {
         email: String(email.target.value),
         password: String(password.target.value),
       })

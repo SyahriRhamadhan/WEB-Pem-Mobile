@@ -32,7 +32,7 @@ const ListOrder = () => {
     getTransaction();
   }, []);
   const getTransaction = async () => {
-    const response = await axios.get("https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/data", {
+    const response = await axios.get("https://witty-gold-donkey.cyclic.app/v1/api/ticket/transaction/data", {
         headers: {
             Authorization: "Bearer " + localStorage.getItem("token"),
         },

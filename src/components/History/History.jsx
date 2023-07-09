@@ -8,7 +8,7 @@ function History() {
   const [history, setHistory] = useState([]);
   const historyUser = () => {
     axios
-      .get('https://be-pem-mobile-production.up.railway.app/v1/api/ticket/transaction/data/history/member', {
+      .get('https://witty-gold-donkey.cyclic.app/v1/api/ticket/transaction/data/history/member', {
         headers: {
           Authorization: "Bearer " + localStorage.getItem("token"),
         },
