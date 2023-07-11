@@ -1,0 +1,1923 @@
+{
+  "intents": [
+    {
+      "intent": "Checkin",
+      "examples": [
+        {
+          "text": "check in"
+        },
+        {
+          "text": "check-in"
+        },
+        {
+          "text": "How to checkin"
+        },
+        {
+          "text": "i want to check in"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "eCommerce_Cancel_Product_Order",
+      "examples": [
+        {
+          "text": "Cancel existing ticket or flight order"
+        },
+        {
+          "text": "Cancel ticket or flight order placed earlier"
+        },
+        {
+          "text": "Cancel ticket or flight order submitted today"
+        },
+        {
+          "text": "Can you help me to cancel my last ticket or flight order?"
+        },
+        {
+          "text": "Can you help me to cancel the ticket or flight order which I just placed a few minutes ago?"
+        },
+        {
+          "text": "How can I cancel my order of your extended data service?"
+        },
+        {
+          "text": "How can I cancel my previous order?"
+        },
+        {
+          "text": "I just placed and order, but I need to cancel it."
+        },
+        {
+          "text": "I made an order yesterday, can I cancel it?"
+        },
+        {
+          "text": "I need to cancel an order that I placed."
+        },
+        {
+          "text": "I need to cancel the most recent order. how do I do this?"
+        },
+        {
+          "text": "I need to speak to someone about an order I made not long ago, I need to cancel it please"
+        },
+        {
+          "text": "I recently placed an order for a new phone online. I've changed my mind. can you please cancel my order?"
+        },
+        {
+          "text": "I've bought an keyboard and id like to cancel it"
+        },
+        {
+          "text": "I want to cancel the new device switch order I placed"
+        },
+        {
+          "text": "I want to cancel the order"
+        },
+        {
+          "text": "I wish to cancel my last order."
+        },
+        {
+          "text": "I wish to cancel my recent order"
+        },
+        {
+          "text": "Please cancel the order I've made this morning"
+        },
+        {
+          "text": "Please cancel the order that was recently placed."
+        }
+      ],
+      "description": "Cancel an order."
+    },
+    {
+      "intent": "eCommerce_Make_A_Payment",
+      "examples": [
+        {
+          "text": "Bugger me I wanna pay me bill"
+        },
+        {
+          "text": "Can I do a bill payment?"
+        },
+        {
+          "text": "Can I pay my bill?"
+        },
+        {
+          "text": "Can you assist me with paying my bill?"
+        },
+        {
+          "text": "Handle payment?"
+        },
+        {
+          "text": "How can I pay off my balance?"
+        },
+        {
+          "text": "I also want to make a payment when I have you here on chat"
+        },
+        {
+          "text": "I'd like to pay"
+        },
+        {
+          "text": "I need to pay the cost of my service plan"
+        },
+        {
+          "text": "I need to schedule a payment"
+        },
+        {
+          "text": "I think I'm gonna pay the bill"
+        },
+        {
+          "text": "I want to make a one time payment and enter my debit card payment information"
+        },
+        {
+          "text": "I want to make payment"
+        },
+        {
+          "text": "I want to pay my bill with a credit card"
+        },
+        {
+          "text": "I would like to ask a question about making a payment."
+        },
+        {
+          "text": "Pay my account"
+        },
+        {
+          "text": "Request bill pay"
+        },
+        {
+          "text": "Right now, I am in a different city and how to make cash payment as today is the due date"
+        },
+        {
+          "text": "Schedule payment"
+        },
+        {
+          "text": "Want to pay"
+        }
+      ],
+      "description": "Make a payment."
+    },
+    {
+      "intent": "eCommerce_Method_Of_Payment",
+      "examples": [
+        {
+          "text": "Do you accept bank wires?"
+        },
+        {
+          "text": "Do you accept visa?"
+        },
+        {
+          "text": "How can I pay you?"
+        },
+        {
+          "text": "I need to add a new payment card"
+        },
+        {
+          "text": "I need to change my credit card"
+        },
+        {
+          "text": "Is there a chance I can pay with cash upon delivery?"
+        },
+        {
+          "text": "I want to change my payment preferences."
+        },
+        {
+          "text": "I want to switch what card my payment is taken from"
+        },
+        {
+          "text": "Till now, I was paying in cash. may I pay the future payments through credit card?"
+        },
+        {
+          "text": "What are the payment methods?"
+        },
+        {
+          "text": "What are your payment options?"
+        },
+        {
+          "text": "What did I pay for credit card?"
+        },
+        {
+          "text": "What kind of payments are accepted?"
+        }
+      ],
+      "description": "Manage the method of payment for a bill."
+    },
+    {
+      "intent": "eCommerce_Modify_Product_Order",
+      "examples": [
+        {
+          "text": "Can I change my order for a new ticket or flight?"
+        },
+        {
+          "text": "Can I change the number on the seat order from three to four?"
+        },
+        {
+          "text": "Can you change the order I just placed?"
+        },
+        {
+          "text": "Can you help me modify the ticket or flight order that I just placed?"
+        },
+        {
+          "text": "Changed mind on last order"
+        },
+        {
+          "text": "Hey I would like to change the delivery date on my ticket or flight order please"
+        },
+        {
+          "text": "How can I chance my ticket or flight order?"
+        },
+        {
+          "text": "I'd like to change some things with my most recent order"
+        },
+        {
+          "text": "I need to change my order help please"
+        },
+        {
+          "text": "I need to make a change to my current order"
+        },
+        {
+          "text": "I ordered a new phone today but forgot to add an extra charger. can you please add it to my original order."
+        },
+        {
+          "text": "Is there a way to modify a previous order?"
+        },
+        {
+          "text": "I want to change my last order but I don't want to cancel it. can I do that?"
+        },
+        {
+          "text": "i want to change my ticket"
+        },
+        {
+          "text": "I want to edit an order"
+        },
+        {
+          "text": "I want to modify an order made"
+        },
+        {
+          "text": "I want to update my order."
+        },
+        {
+          "text": "I would like to add additional items to an order."
+        },
+        {
+          "text": "I would like to modify an order I made."
+        }
+      ],
+      "description": "Change or modify a placed order."
+    },
+    {
+      "intent": "eCommerce_Product_Order_Status",
+      "examples": [
+        {
+          "text": "Can I check on my order?"
+        },
+        {
+          "text": "Can you track the whereabouts of this sim I ordered?"
+        },
+        {
+          "text": "How do I track my ticket?"
+        },
+        {
+          "text": "I was just wondering if I could check the status of an order I made."
+        },
+        {
+          "text": "I would like to check the status of an order I placed recently."
+        },
+        {
+          "text": "Order progress"
+        },
+        {
+          "text": "Please, can you tell me about the status of an orden I made?"
+        },
+        {
+          "text": "Shipping status"
+        },
+        {
+          "text": "What state you are in with my current order?"
+        },
+        {
+          "text": "Yes I want to track my order"
+        }
+      ],
+      "description": "Request status of an order that has been placed."
+    },
+    {
+      "intent": "Grettings",
+      "examples": [
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good night"
+        },
+        {
+          "text": "hai"
+        },
+        {
+          "text": "halo"
+        },
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "hey"
+        },
+        {
+          "text": "Hi"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "History",
+      "examples": [
+        {
+          "text": "History"
+        },
+        {
+          "text": "Hou i see my previous history"
+        },
+        {
+          "text": "I want to see may recap fligt"
+        },
+        {
+          "text": "i want to see my previous flight"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "HowToBuyTicket",
+      "examples": [
+        {
+          "text": "buying plane tickets"
+        },
+        {
+          "text": "buying tiket"
+        },
+        {
+          "text": "buy tiket"
+        },
+        {
+          "text": "how to book tickets"
+        },
+        {
+          "text": "how to buy"
+        },
+        {
+          "text": "how to buy tickets"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "NewsInfo",
+      "examples": [
+        {
+          "text": "news info"
+        },
+        {
+          "text": "what is today news"
+        }
+      ],
+      "description": "News info"
+    },
+    {
+      "intent": "Notification",
+      "examples": [
+        {
+          "text": "How do I know if my payment was successful"
+        },
+        {
+          "text": "How to find out the status of ticket purchases"
+        },
+        {
+          "text": "Notif"
+        },
+        {
+          "text": "notification"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Oneway",
+      "examples": [
+        {
+          "text": "One-way"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Payment",
+      "examples": [
+        {
+          "text": "how i pay the ticket"
+        },
+        {
+          "text": "pay"
+        },
+        {
+          "text": "payment"
+        },
+        {
+          "text": "what method payment I can use"
+        }
+      ],
+      "description": "user bertanya bagaimana metode pembayaran"
+    },
+    {
+      "intent": "Profile",
+      "examples": [
+        {
+          "text": "account information"
+        },
+        {
+          "text": "how to check my profile info"
+        },
+        {
+          "text": "profile"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Roundtrip",
+      "examples": [
+        {
+          "text": "Round-trip"
+        },
+        {
+          "text": "RoundTrip"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "ThankYou",
+      "examples": [
+        {
+          "text": "appreciate it"
+        },
+        {
+          "text": "bye"
+        },
+        {
+          "text": "much appreciate it"
+        },
+        {
+          "text": "see you again"
+        },
+        {
+          "text": "Thank you"
+        },
+        {
+          "text": "Thank you for recommendation"
+        },
+        {
+          "text": "thx"
+        },
+        {
+          "text": "Ty"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Ticket_Recomendation",
+      "examples": [
+        {
+          "text": "Are there any available flights from Bali to Taipei?"
+        },
+        {
+          "text": "Are there any available flights from Jakarta to Taipei?"
+        },
+        {
+          "text": "Are there any flights from Semarang to Taipei?"
+        },
+        {
+          "text": "Can you assist me in finding a ticket from Surabaya to Kuala Lumpur?"
+        },
+        {
+          "text": "Can you help me find a ticket from Bali to Bangkok?"
+        },
+        {
+          "text": "Can you help me find a ticket from Palembang to Kuala Lumpur?"
+        },
+        {
+          "text": "Do you have any available tickets from Yogyakarta to Ho Chi Minh City?"
+        },
+        {
+          "text": "Do you have any information about flights from Bali to Tokyo?"
+        },
+        {
+          "text": "Do you have any information about flights from Bandung to Manila?"
+        },
+        {
+          "text": "flight recommendation"
+        },
+        {
+          "text": "From Abun to Nusawiru."
+        },
+        {
+          "text": "From Aek Godang to Angguruk."
+        },
+        {
+          "text": "From Aek Godang to Bontang."
+        },
+        {
+          "text": "From Ahmad Yani to Jenderal Soedirman."
+        },
+        {
+          "text": "From Ambon to Auckland."
+        },
+        {
+          "text": "From Ambon to Cape Town."
+        },
+        {
+          "text": "From Ambon to Serang."
+        },
+        {
+          "text": "From Ambon to Stockholm."
+        },
+        {
+          "text": "From Ambon to Sydney."
+        },
+        {
+          "text": "From Bade to Buli."
+        },
+        {
+          "text": "From Balikpapan to Beijing."
+        },
+        {
+          "text": "From Balikpapan to Istanbul."
+        },
+        {
+          "text": "From Balikpapan to Jayapura."
+        },
+        {
+          "text": "From Banda Aceh to Auckland."
+        },
+        {
+          "text": "From Banda Aceh to Buenos Aires."
+        },
+        {
+          "text": "From Banda Aceh to Istanbul."
+        },
+        {
+          "text": "From Banda Aceh to Mataram."
+        },
+        {
+          "text": "From Banda Aceh to Seoul."
+        },
+        {
+          "text": "From Bandar Lampung to Istanbul."
+        },
+        {
+          "text": "From Bandar Lampung to New York."
+        },
+        {
+          "text": "From Bandar Lampung to Pekanbaru."
+        },
+        {
+          "text": "From Bandar Lampung to Rio de Janeiro."
+        },
+        {
+          "text": "From Bandar Lampung to Stockholm."
+        },
+        {
+          "text": "From Bandung to Istanbul."
+        },
+        {
+          "text": "From Bandung to Los Angeles."
+        },
+        {
+          "text": "From Bandung to Malang."
+        },
+        {
+          "text": "From Bandung to New York."
+        },
+        {
+          "text": "From Bandung to Paris."
+        },
+        {
+          "text": "From Banjarmasin to Mumbai."
+        },
+        {
+          "text": "From Banjarmasin to Palu."
+        },
+        {
+          "text": "From Banjarmasin to Seoul."
+        },
+        {
+          "text": "From Banjarmasin to Vancouver."
+        },
+        {
+          "text": "From Banjar to Penajam."
+        },
+        {
+          "text": "From Banyuasin II to Nangapinoh."
+        },
+        {
+          "text": "From Bari to Lombok."
+        },
+        {
+          "text": "from batam to palembang"
+        },
+        {
+          "text": "From Batam to Tokyo."
+        },
+        {
+          "text": "From Batanghari to Taliwang."
+        },
+        {
+          "text": "From Batusangkar to Dubai."
+        },
+        {
+          "text": "From Batusangkar to Mumbai."
+        },
+        {
+          "text": "From Batusangkar to Rome."
+        },
+        {
+          "text": "From Batusangkar to Stockholm."
+        },
+        {
+          "text": "From Batu to Cape Town."
+        },
+        {
+          "text": "From Batu to London."
+        },
+        {
+          "text": "From Bawean to Ranai."
+        },
+        {
+          "text": "From Bengkulu to Buenos Aires."
+        },
+        {
+          "text": "From Bengkulu to Dubai."
+        },
+        {
+          "text": "From Bengkulu to Los Angeles."
+        },
+        {
+          "text": "From Bengkulu to Rio de Janeiro."
+        },
+        {
+          "text": "From Bengkulu to Sorong."
+        },
+        {
+          "text": "From Bengkulu to Stockholm."
+        },
+        {
+          "text": "From Binjai to Athens."
+        },
+        {
+          "text": "From Binjai to Auckland."
+        },
+        {
+          "text": "From Binjai to Buenos Aires."
+        },
+        {
+          "text": "From Binjai to London."
+        },
+        {
+          "text": "From Binjai to Moscow."
+        },
+        {
+          "text": "From Binjai to Vancouver."
+        },
+        {
+          "text": "From Bitung to Athens."
+        },
+        {
+          "text": "From Bitung to Paris."
+        },
+        {
+          "text": "From Bitung to Rio de Janeiro."
+        },
+        {
+          "text": "From Bitung to Sydney."
+        },
+        {
+          "text": "From Blitar to London."
+        },
+        {
+          "text": "From Blitar to Los Angeles."
+        },
+        {
+          "text": "From Blitar to Paris."
+        },
+        {
+          "text": "From Blitar to Tokyo."
+        },
+        {
+          "text": "From Bontang to Jember."
+        },
+        {
+          "text": "From Bubung to Sosok."
+        },
+        {
+          "text": "From Bukittinggi to Auckland."
+        },
+        {
+          "text": "From Bukittinggi to Rio de Janeiro."
+        },
+        {
+          "text": "From Bukittinggi to Vancouver."
+        },
+        {
+          "text": "From Bumiayu to Boven Digoel."
+        },
+        {
+          "text": "From Bunguran to Ruteng."
+        },
+        {
+          "text": "From Buntok to Dabo."
+        },
+        {
+          "text": "From Cirebon to Sydney."
+        },
+        {
+          "text": "From Cirebon to Tasikmalaya."
+        },
+        {
+          "text": "From Demak to Bangkok."
+        },
+        {
+          "text": "From Denpasar to Hong Kong, I'm searching for available tickets."
+        },
+        {
+          "text": "From Denpasar to Los Angeles."
+        },
+        {
+          "text": "From Denpasar to Medan."
+        },
+        {
+          "text": "From Denpasar to Rio de Janeiro."
+        },
+        {
+          "text": "From Denpasar to Rome."
+        },
+        {
+          "text": "From Domine Eduard Osok to Ulin."
+        },
+        {
+          "text": "From Fatmawati Soekarno to Sugimanuru."
+        },
+        {
+          "text": "From Gorontalo to Ternate."
+        },
+        {
+          "text": "From Gunung Sahilan to Notohadinegoro."
+        },
+        {
+          "text": "From Gunung Sitoli to Syamsudin Noor."
+        },
+        {
+          "text": "From Hang Nadim to Teuku Cut Ali."
+        },
+        {
+          "text": "From Jakarta to Pontianak."
+        },
+        {
+          "text": "From Jakarta to Singapore, I need to book a ticket."
+        },
+        {
+          "text": "From Jambi to Athens."
+        },
+        {
+          "text": "From Jambi to Cairo."
+        },
+        {
+          "text": "From Jambi to Cape Town."
+        },
+        {
+          "text": "From Jambi to London."
+        },
+        {
+          "text": "From Japura to Belitung."
+        },
+        {
+          "text": "From Jayapura to Auckland."
+        },
+        {
+          "text": "From Jayapura to Balikpapan."
+        },
+        {
+          "text": "From Jayapura to Buenos Aires."
+        },
+        {
+          "text": "From Jayawijaya to Tanjung Harapan."
+        },
+        {
+          "text": "From Jember to Bontang."
+        },
+        {
+          "text": "From Jendela to Kalabahi."
+        },
+        {
+          "text": "From Jernih to Beringin."
+        },
+        {
+          "text": "From Juwata to H Hasan Aroeboesman."
+        },
+        {
+          "text": "From Kalabahi to Blambangan."
+        },
+        {
+          "text": "From Kauhajang to Ende."
+        },
+        {
+          "text": "From Kediri to Dubai."
+        },
+        {
+          "text": "From Kediri to Sydney."
+        },
+        {
+          "text": "From Keluang to Kahayan."
+        },
+        {
+          "text": "From Kendari to Pangkal Pinang."
+        },
+        {
+          "text": "from kupang to makasar"
+        },
+        {
+          "text": "From Kupang to Makassar."
+        },
+        {
+          "text": "From Larantuka to Samarinda."
+        },
+        {
+          "text": "From Lhokseumawe to Tokyo."
+        },
+        {
+          "text": "From Lubuklinggau to Buenos Aires."
+        },
+        {
+          "text": "From Lubuklinggau to Dubai."
+        },
+        {
+          "text": "From Lubuklinggau to London."
+        },
+        {
+          "text": "From Lubuklinggau to Mumbai."
+        },
+        {
+          "text": "From Luwuk to Tanahmerah."
+        },
+        {
+          "text": "From Magelang to Cape Town."
+        },
+        {
+          "text": "From Magelang to Dubai."
+        },
+        {
+          "text": "From Magelang to Paris."
+        },
+        {
+          "text": "From Magelang to Seoul."
+        },
+        {
+          "text": "From Magelang to Vancouver."
+        },
+        {
+          "text": "From Makassar to Beijing."
+        },
+        {
+          "text": "From Makassar to Hong Kong, I'm searching for available tickets."
+        },
+        {
+          "text": "From Makassar to Istanbul."
+        },
+        {
+          "text": "From Makassar to Kupang."
+        },
+        {
+          "text": "From Makassar to London."
+        },
+        {
+          "text": "From Makassar to Sydney."
+        },
+        {
+          "text": "From Malang to Bangkok."
+        },
+        {
+          "text": "From Malang to Luwuk."
+        },
+        {
+          "text": "From Malang to Manado."
+        },
+        {
+          "text": "From Malang to Rome."
+        },
+        {
+          "text": "From Malang to Sydney."
+        },
+        {
+          "text": "From Manado to Cape Town."
+        },
+        {
+          "text": "From Manado to Malang."
+        },
+        {
+          "text": "From Manado to New York."
+        },
+        {
+          "text": "From Manado to Samarinda."
+        },
+        {
+          "text": "From Marisa to Muara Teweh."
+        },
+        {
+          "text": "From Mataram to Banda Aceh."
+        },
+        {
+          "text": "From Mataram to Cape Town."
+        },
+        {
+          "text": "From Mataram to Rio de Janeiro."
+        },
+        {
+          "text": "From Mataram to Sydney."
+        },
+        {
+          "text": "From Mataram to Vancouver."
+        },
+        {
+          "text": "From Medan to Cairo."
+        },
+        {
+          "text": "From Medan to Denpasar."
+        },
+        {
+          "text": "From Medan to Moscow."
+        },
+        {
+          "text": "From Medan to Paris."
+        },
+        {
+          "text": "From Melalan to Abdul Rachman Saleh."
+        },
+        {
+          "text": "From Mersing to Tambelan."
+        },
+        {
+          "text": "From Minangkabau to Tabing."
+        },
+        {
+          "text": "From Mojokerto to Beijing."
+        },
+        {
+          "text": "From Mojokerto to Paris."
+        },
+        {
+          "text": "From Mojokerto to Rome."
+        },
+        {
+          "text": "From Mopah to Babullah."
+        },
+        {
+          "text": "From Muara Bungo to Tobing."
+        },
+        {
+          "text": "From Mutiara SIS Al-Jufrie to Lasondre."
+        },
+        {
+          "text": "From Padangsidempuan to Buenos Aires."
+        },
+        {
+          "text": "From Padangsidempuan to Mumbai."
+        },
+        {
+          "text": "From Padangsidempuan to Stockholm."
+        },
+        {
+          "text": "From Padangsidempuan to Tokyo."
+        },
+        {
+          "text": "From Padang to Bangkok."
+        },
+        {
+          "text": "From Padang to Buenos Aires."
+        },
+        {
+          "text": "From Padang to Los Angeles."
+        },
+        {
+          "text": "From Padang to Mumbai."
+        },
+        {
+          "text": "From Padang to Vancouver."
+        },
+        {
+          "text": "From Padang to Yogyakarta."
+        },
+        {
+          "text": "From Pagar Alam to Sampit."
+        },
+        {
+          "text": "From Palangkaraya to Beijing."
+        },
+        {
+          "text": "From Palangkaraya to Istanbul."
+        },
+        {
+          "text": "From Palangkaraya to Paris."
+        },
+        {
+          "text": "From Palangkaraya to Rio de Janeiro."
+        },
+        {
+          "text": "From Palangkaraya to Rome."
+        },
+        {
+          "text": "From Palembang to Bangkok."
+        },
+        {
+          "text": "From Palembang to Beijing."
+        },
+        {
+          "text": "From Palembang to Buenos Aires."
+        },
+        {
+          "text": "From Palembang to Cape Town."
+        },
+        {
+          "text": "From Palembang to Semarang."
+        },
+        {
+          "text": "From Palembang to Sydney."
+        },
+        {
+          "text": "From Palopo to Pekon Serai."
+        },
+        {
+          "text": "From Palu to Banjarmasin."
+        },
+        {
+          "text": "From Palu to Buenos Aires."
+        },
+        {
+          "text": "From Palu to Mumbai."
+        },
+        {
+          "text": "From Pangkalpinang to Bangkok."
+        },
+        {
+          "text": "From Pangkalpinang to Beijing."
+        },
+        {
+          "text": "From Pangkalpinang to Cape Town."
+        },
+        {
+          "text": "From Pangkal Pinang to Kendari."
+        },
+        {
+          "text": "From Pangkalpinang to Rio de Janeiro."
+        },
+        {
+          "text": "From Pattimura to Pangsuma."
+        },
+        {
+          "text": "From Payakumbuh to Athens."
+        },
+        {
+          "text": "From Payakumbuh to Auckland."
+        },
+        {
+          "text": "From Payakumbuh to Buenos Aires."
+        },
+        {
+          "text": "From Payakumbuh to Dubai."
+        },
+        {
+          "text": "From Payakumbuh to Istanbul."
+        },
+        {
+          "text": "From Payakumbuh to London."
+        },
+        {
+          "text": "From Payakumbuh to Stockholm."
+        },
+        {
+          "text": "From Payakumbuh to Vancouver."
+        },
+        {
+          "text": "From Pekalongan to Cape Town."
+        },
+        {
+          "text": "From Pekalongan to New York."
+        },
+        {
+          "text": "From Pekalongan to Tokyo."
+        },
+        {
+          "text": "From Pekanbaru to Auckland."
+        },
+        {
+          "text": "From Pekanbaru to Bandar Lampung."
+        },
+        {
+          "text": "From Pekanbaru to Buenos Aires."
+        },
+        {
+          "text": "From Pekanbaru to Vancouver."
+        },
+        {
+          "text": "From Pematangsiantar to Cairo."
+        },
+        {
+          "text": "From Pematangsiantar to Cape Town."
+        },
+        {
+          "text": "From Pematangsiantar to Singapore."
+        },
+        {
+          "text": "From Pematangsiantar to Tokyo."
+        },
+        {
+          "text": "From Penggung to Melak."
+        },
+        {
+          "text": "From Perigi to Batu Engau."
+        },
+        {
+          "text": "From Ponorogo to London."
+        },
+        {
+          "text": "From Pontianak to Cairo."
+        },
+        {
+          "text": "From Pontianak to Jakarta."
+        },
+        {
+          "text": "From Pontianak to Rome."
+        },
+        {
+          "text": "From Pontianak to Singapore."
+        },
+        {
+          "text": "From Prabumulih to Dubai."
+        },
+        {
+          "text": "From Prabumulih to Moscow."
+        },
+        {
+          "text": "From Prabumulih to Rome."
+        },
+        {
+          "text": "From Prabumulih to Vancouver."
+        },
+        {
+          "text": "From Ranggur to Lumut."
+        },
+        {
+          "text": "From Ransiki to Ruteng."
+        },
+        {
+          "text": "From Ruteng to Rokot."
+        },
+        {
+          "text": "From Samarinda to Bandung."
+        },
+        {
+          "text": "From Samarinda to Bangkok."
+        },
+        {
+          "text": "From Samarinda to Beijing."
+        },
+        {
+          "text": "From Samarinda to Cape Town."
+        },
+        {
+          "text": "From Samarinda to Moscow."
+        },
+        {
+          "text": "From Sawahlunto to Athens."
+        },
+        {
+          "text": "From Sawahlunto to Istanbul."
+        },
+        {
+          "text": "From Sawahlunto to Mumbai."
+        },
+        {
+          "text": "From Sawahlunto to Rome."
+        },
+        {
+          "text": "From Sawahlunto to Stockholm."
+        },
+        {
+          "text": "From Sawahlunto to Tokyo."
+        },
+        {
+          "text": "From Selayar to Toli-Toli."
+        },
+        {
+          "text": "From Semarang to Beijing."
+        },
+        {
+          "text": "From Semarang to London."
+        },
+        {
+          "text": "From Semarang to Moscow."
+        },
+        {
+          "text": "From Semarang to New York."
+        },
+        {
+          "text": "From Semarang to Palembang."
+        },
+        {
+          "text": "From Semarang to Vancouver."
+        },
+        {
+          "text": "From Senggeh to Amahai."
+        },
+        {
+          "text": "From Serang to Ambon."
+        },
+        {
+          "text": "From Serang to Dubai."
+        },
+        {
+          "text": "From Serang to Rio de Janeiro."
+        },
+        {
+          "text": "From Singaraja to Moscow."
+        },
+        {
+          "text": "From Singaraja to Paris."
+        },
+        {
+          "text": "From Singaraja to Stockholm."
+        },
+        {
+          "text": "From Singaraja to Tokyo."
+        },
+        {
+          "text": "From Singkawang to Beijing."
+        },
+        {
+          "text": "From Singkawang to Cape Town."
+        },
+        {
+          "text": "From Singkawang to New York."
+        },
+        {
+          "text": "From Singkawang to Siborong-Borong."
+        },
+        {
+          "text": "From Singkawang to Vancouver."
+        },
+        {
+          "text": "From Sintang to Putussibau."
+        },
+        {
+          "text": "From Siwalimanja to Dewadaru."
+        },
+        {
+          "text": "From Solok to Athens."
+        },
+        {
+          "text": "From Solok to Buenos Aires."
+        },
+        {
+          "text": "From Solok to Dubai."
+        },
+        {
+          "text": "From Solok to Moscow."
+        },
+        {
+          "text": "From Solok to Rio de Janeiro."
+        },
+        {
+          "text": "From Solo to Paris."
+        },
+        {
+          "text": "From Sorong to Bengkulu."
+        },
+        {
+          "text": "From Sorong to Buenos Aires."
+        },
+        {
+          "text": "From Sorong to Cairo."
+        },
+        {
+          "text": "From Sorong to New York."
+        },
+        {
+          "text": "From Sorong to Vancouver."
+        },
+        {
+          "text": "From Sukabumi to Bangkok."
+        },
+        {
+          "text": "From Sultan Syarif Kasim II to Pinang Kampai."
+        },
+        {
+          "text": "From Sumedang to Istanbul."
+        },
+        {
+          "text": "From Surabaya to Cape Town."
+        },
+        {
+          "text": "From Surabaya to Dubai."
+        },
+        {
+          "text": "From Surabaya to Makassar."
+        },
+        {
+          "text": "From Surabaya to Tokyo."
+        },
+        {
+          "text": "From Tabing to Sei Bati."
+        },
+        {
+          "text": "From Tangerang to New York."
+        },
+        {
+          "text": "From Tanjung Pandan to Sipora."
+        },
+        {
+          "text": "From Tanjung Pinang to Beijing."
+        },
+        {
+          "text": "From Tanjung Pinang to Los Angeles."
+        },
+        {
+          "text": "From Tanjung Pinang to Moscow."
+        },
+        {
+          "text": "From Tanjung Pinang to Paris."
+        },
+        {
+          "text": "From Tanjung Warukin to Malinau."
+        },
+        {
+          "text": "From Tarakan to Rio de Janeiro."
+        },
+        {
+          "text": "From Tarempa to Kelarik."
+        },
+        {
+          "text": "From Tasikmalaya to Cirebon."
+        },
+        {
+          "text": "From Terara to Bangsal."
+        },
+        {
+          "text": "From Ternate to Athens."
+        },
+        {
+          "text": "From Ternate to Buenos Aires."
+        },
+        {
+          "text": "From Ternate to Gorontalo."
+        },
+        {
+          "text": "From Ternate to Vancouver."
+        },
+        {
+          "text": "From Tjilik Riwut to Babullah"
+        },
+        {
+          "text": "From Tjilik Riwut to Wahai."
+        },
+        {
+          "text": "From Tomia to Lombok."
+        },
+        {
+          "text": "From Tomohon to Auckland."
+        },
+        {
+          "text": "From Tomohon to Buenos Aires."
+        },
+        {
+          "text": "From Tomohon to Dubai."
+        },
+        {
+          "text": "From Tomohon to Stockholm."
+        },
+        {
+          "text": "From Tomohon to Sydney."
+        },
+        {
+          "text": "From Tual to Raha."
+        },
+        {
+          "text": "From Tunggul Wulung to Stagen."
+        },
+        {
+          "text": "From Umar Hadid to Syukuran Aminuddin Amir."
+        },
+        {
+          "text": "From Wolter Monginsidi to Kasiguncu."
+        },
+        {
+          "text": "From Yogyakarta to Athens."
+        },
+        {
+          "text": "From Yogyakarta to Dubai."
+        },
+        {
+          "text": "From Yogyakarta to Padang."
+        },
+        {
+          "text": "From Yogyakarta to Rio de Janeiro."
+        },
+        {
+          "text": "I'm interested in booking a ticket from Makassar to Tokyo."
+        },
+        {
+          "text": "I'm interested in traveling from Medan to Seoul. Can you help me find a ticket?"
+        },
+        {
+          "text": "I'm interested in traveling from Surabaya to Seoul. Can you help me find a ticket?"
+        },
+        {
+          "text": "I'm looking for a flight"
+        },
+        {
+          "text": "Im looking for a flight"
+        },
+        {
+          "text": "I'm looking for a ticket"
+        },
+        {
+          "text": "Im looking for a ticket"
+        },
+        {
+          "text": "I'm looking for a ticket from Batam to Kuala Lumpur."
+        },
+        {
+          "text": "I'm looking to travel from Jakarta to Bangkok. Are there any flights available?"
+        },
+        {
+          "text": "I'm looking to travel from Surabaya to Bangkok. Are there any flights available?"
+        },
+        {
+          "text": "I'm planning a trip from Surabaya to Manila and need to book a ticket."
+        },
+        {
+          "text": "I'm planning a trip from Yogyakarta to Manila and need to book a ticket."
+        },
+        {
+          "text": "I'm planning a trip from Yogyakarta to Tokyo and need to book a ticket."
+        },
+        {
+          "text": "I need to find a ticket from Denpasar to Phuket. Can you assist?"
+        },
+        {
+          "text": "I need to find a ticket from Medan to Shanghai. Can you help?"
+        },
+        {
+          "text": "I want to book a ticket from Medan to Ho Chi Minh City."
+        },
+        {
+          "text": "I want to book a ticket from Surabaya to Ho Chi Minh City."
+        },
+        {
+          "text": "i want to buy a ticket"
+        },
+        {
+          "text": "i want to buy ticket"
+        },
+        {
+          "text": "i want to take a flight"
+        },
+        {
+          "text": "I want to travel from Bandung to Phuket. Can you assist me in finding a ticket?"
+        },
+        {
+          "text": "ticket recommendation"
+        },
+        {
+          "text": "Which airlines offer flights from Batam to Jakarta?"
+        },
+        {
+          "text": "Which airlines offer flights from Jakarta to Shanghai?"
+        },
+        {
+          "text": "Which airlines offer flights from Palembang to Seoul?"
+        },
+        {
+          "text": "Which airlines offer flights from Semarang to Shanghai?"
+        },
+        {
+          "text": "Which airlines operate flights from Bandung to Singapore?"
+        },
+        {
+          "text": "Which airlines operate flights from Jakarta to Singapore?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "UpdateProfile",
+      "examples": [
+        {
+          "text": "change address"
+        },
+        {
+          "text": "change document"
+        },
+        {
+          "text": "change name"
+        },
+        {
+          "text": "How i can update my profile"
+        },
+        {
+          "text": "update address"
+        },
+        {
+          "text": "update document"
+        },
+        {
+          "text": "update name"
+        },
+        {
+          "text": "update profile"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "Wishlist",
+      "examples": [
+        {
+          "text": "how to add favorite flight"
+        },
+        {
+          "text": "how to add favorite ticket"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    },
+    "from-sample": true
+  },
+  "webhooks": [
+    {
+      "url": "",
+      "name": "main_webhook",
+      "headers": []
+    }
+  ],
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Anything else",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I didn't understand. You can try rephrasing."
+              },
+              {
+                "text": "Can you reword your statement? I'm not understanding."
+              },
+              {
+                "text": "I didn't get your meaning."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Anything else",
+      "previous_sibling": "node_7_1688489132167",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Checkin",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's how to check in to our website.\n1. Make sure you login first\n2. on the navigation bar click history\n3. You will see a check in button\n4. click and automatically you have checked in"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Checkin",
+      "dialog_node": "node_10_1688548814460",
+      "previous_sibling": "node_5_1688563872095"
+    },
+    {
+      "type": "standard",
+      "title": "PaymentInfo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "We only accept payments via all bank transfer"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Make_A_Payment || #Payment",
+      "dialog_node": "node_10_1688550299903",
+      "previous_sibling": "node_8_1688562779010"
+    },
+    {
+      "type": "standard",
+      "title": "One-way",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Sure this is for One-way trip https://flightgo-nine.vercel.app/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Oneway",
+      "dialog_node": "node_10_1688573562149",
+      "previous_sibling": "node_10_1688573595014"
+    },
+    {
+      "type": "standard",
+      "title": "Round-trip",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": " Sure this is for One-way trip https://flightgo-nine.vercel.app/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Roundtrip",
+      "dialog_node": "node_10_1688573595014",
+      "previous_sibling": "node_6_1689079213320"
+    },
+    {
+      "type": "standard",
+      "title": "Profile",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here's how to view profiles and update profiles:\n\n1. Make sure you have logged in to the website\n2. On the navigation bar you will see the profile tab\n3. click and you can see your account profile\n\nTo update profile/documents (visa, residence permit, passport):\n1. On the profile page you will see an update profile button\n2. Click and you will be directed to the update profile page\n3. If you will be asked to fill out and upload the required documents.\n\nPlease send a question if you need help again."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Profile || #UpdateProfile",
+      "dialog_node": "node_1_1688549592701",
+      "previous_sibling": "node_6_1688563115562"
+    },
+    {
+      "type": "standard",
+      "title": "History",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is step by step how to  go history flight.\n1. Login to the website\n2. On the  navigation bar, click history\n3. Now you can see your history\nHope your flight goes well."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#History",
+      "dialog_node": "node_3_1688548546641",
+      "previous_sibling": "node_6_1688572741798"
+    },
+    {
+      "type": "standard",
+      "title": "Wishlist",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Here is step by step how to add a wishlist ticket.\n1. Login to the website\n2. On the dashboard page, click find flight\n3. Find the flight you want to save\n4. Click the heart icon\n5. and you can see it on the wishlist tab\nHope your flight goes well."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Wishlist",
+      "dialog_node": "node_4_1688547742308",
+      "previous_sibling": "node_3_1688548546641"
+    },
+    {
+      "type": "standard",
+      "title": "Cancle order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "To cancel your ticket order please send an email to FlightGo, with the subject \"Cancle order\" and the message format:\nName:\nE-mail:\nTicket ID:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Cancel_Product_Order",
+      "dialog_node": "node_5_1688563872095",
+      "previous_sibling": "node_4_1688547742308"
+    },
+    {
+      "type": "standard",
+      "title": "Update order",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "I'm sorry "
+              },
+              {
+                "text": "im sorry we don't currently provide the option to modify flight ticket orders. But you can cancel the ticket."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#eCommerce_Modify_Product_Order",
+      "dialog_node": "node_6_1688563115562",
+      "previous_sibling": "node_6_1688572103370"
+    },
+    {
+      "type": "standard",
+      "title": "How To Buy Ticket",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "This is how to buy ticket in our website:\n1. If you don't have an account, Register first\n2. Then login to our website\n3. At the landing page click Find Flight button\n4. If you haven't updated your profile, you will be redirected to the profile update page\n5. after updating the profile you can return to point no 3\n6. Find your flight ticket, then click\n7. Upload proof of payment and please check notifications periodically.\nif any question left, let me know"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#HowToBuyTicket",
+      "dialog_node": "node_6_1688572103370",
+      "previous_sibling": "node_10_1688548814460"
+    },
+    {
+      "type": "standard",
+      "title": "Ticket Recommendation",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Okay here your recomendation ticects from our website https://flightgo-nine.vercel.app/ticket"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Ticket_Recomendation",
+      "dialog_node": "node_6_1688572741798",
+      "previous_sibling": "node_10_1688573562149"
+    },
+    {
+      "type": "standard",
+      "title": "News info",
+      "output": {
+        "generic": [
+          {
+            "query": "",
+            "filter": "",
+            "query_type": "natural_language",
+            "response_type": "search_skill"
+          }
+        ]
+      },
+      "conditions": "#NewsInfo",
+      "dialog_node": "node_6_1689079213320",
+      "previous_sibling": "Welcome"
+    },
+    {
+      "type": "standard",
+      "title": "ThankYou",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure, have a good day"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#ThankYou",
+      "dialog_node": "node_7_1688489132167",
+      "previous_sibling": "node_9_1688488741485"
+    },
+    {
+      "type": "standard",
+      "title": "Notification",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sure you can check the status of your ticket at notification page"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Notification || #eCommerce_Product_Order_Status",
+      "dialog_node": "node_8_1688562779010",
+      "previous_sibling": "node_1_1688549592701"
+    },
+    {
+      "type": "standard",
+      "title": "Gretings",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hi, are you looking for a flight? how can i help you"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#Grettings",
+      "dialog_node": "node_9_1688488741485",
+      "previous_sibling": "node_10_1688550299903"
+    },
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Hello there. I'm FlightGo chatbot, i'm the tour guide for this website.\nLet's see what this Chat Bot does:\n1. Flight Recommendations\n2. How to use the features of the website (wishlist, history, profile)\n3. Payment info\n4. Questions\nPlease type what kind of your question."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Welcome"
+    }
+  ],
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "language": "en",
+  "description": "created for assistant eca9438a-6bcf-4852-8d07-d0836002918c",
+  "name": "FlightGo Bot-dialog"
+}
