@@ -1,4 +1,4 @@
-# Costumer Assistane Chatbot For E-ticket Website FlightGo
+# Costumer Assistant Chatbot For E-ticket Website FlightGo
 
 ## What is an Assistant Search Skill?
 
